@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>ES6 modules and Parceljs</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 20px;
+        min-width: 300px;
+      }
+      h1 {
+        font-size: 2em;
+      }
+      .modules-content {
+        background-color: #efefef;
+        display: inline-block;
+        width: 100%;
+      }
+      .module-output {
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JS Modules</h1>
+    <div class="description-content">
+      <p>Extension that uses Parceljs to utilise ES6 modules.</p>
+      <p>The following output is generated from modules imported into the app.js file:</p>
+    </div>
+    <div class="modules-content">
+      <p id="moduleGreeting" class="module-output"></p>
+      <p id="moduleSum" class="module-output"></p>
+      <p id="moduleProduct" class="module-output"></p>
+    </div>
+    <script src="./src/app.js"></script>
+  </body>
+</html>
