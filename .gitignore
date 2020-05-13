@@ -9,4 +9,3 @@ node_modules/
 .cache
 
 # Parcel build / generate output
-dist

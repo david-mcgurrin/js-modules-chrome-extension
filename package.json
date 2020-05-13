@@ -4,8 +4,8 @@
   "description": "Chrome extension that uses Parceljs to allow for ES6 modules in content scripts",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel popup.html --public-url ./ src/background.js src/github.js",
-    "build": "parcel build popup.html --public-url ./ src/background.js src/github.js",
+    "dev": "parcel popup.html --public-url ./ src/background.js src/github.js --out-dir extension/dist",
+    "build": "parcel build popup.html --public-url ./ src/background.js src/github.js --out-dir extension/dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

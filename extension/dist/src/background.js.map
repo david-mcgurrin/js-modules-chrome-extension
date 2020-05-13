@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/background.js"],"names":["document","addEventListener","console","log"],"mappings":";AAAAA,SAASC,iBAAiB,mBAAoB,WAC5CC,QAAQC,IAAI","file":"background.js","sourceRoot":"../..","sourcesContent":["document.addEventListener(\"DOMContentLoaded\", () => {\n  console.log('Running background.js...');\n});"]}
